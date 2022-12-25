@@ -17,6 +17,9 @@ opt.wrap = false -- disable line wrapping
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
 
+-- Scroll offset
+opt.scrolloff = 8
+
 -- cursor line
 opt.cursorline = true -- highlight the current cursor line
 
