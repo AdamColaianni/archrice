@@ -1,0 +1,2 @@
+#!/bin/sh
+[ "`xrandr | grep primary | awk '{print $1}'`" == "DP-1" ] && xrandr --output DP-3 --primary || xrandr --output DP-1 --primary
